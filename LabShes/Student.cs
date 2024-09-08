@@ -37,10 +37,10 @@ namespace LabShes
             }
         }
 
+        // Переопределение метода ToString для правильного отображения в ListBox
         public override string ToString()
         {
-            string examsInfo = Exams.Count > 0 ? string.Join("\n", Exams) : "Нет экзаменов";
-            return $"{Name} {Surname}, Дата рождения: {DateOfBirth.ToShortDateString()}, Экзамены:\n{examsInfo}";
+            return DisplayInfo;
         }
     }
 }

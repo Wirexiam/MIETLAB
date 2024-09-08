@@ -8,3 +8,13 @@ C:\Users\Alfe2\source\repos\LabShes\LabShes\obj\Debug\LabShes.csproj.CoreCompile
 C:\Users\Alfe2\source\repos\LabShes\LabShes\obj\Debug\LabShes.exe
 C:\Users\Alfe2\source\repos\LabShes\LabShes\obj\Debug\LabShes.pdb
 C:\Users\Alfe2\source\repos\LabShes\LabShes\obj\Debug\LabShes.MainForm.resources
+C:\Users\Alfe2\source\repos\LabShes\LabShes\bin\Debug\EntityFramework.dll
+C:\Users\Alfe2\source\repos\LabShes\LabShes\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Alfe2\source\repos\LabShes\LabShes\bin\Debug\MaterialSkin.dll
+C:\Users\Alfe2\source\repos\LabShes\LabShes\bin\Debug\System.Data.SQLite.dll
+C:\Users\Alfe2\source\repos\LabShes\LabShes\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Alfe2\source\repos\LabShes\LabShes\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Alfe2\source\repos\LabShes\LabShes\bin\Debug\EntityFramework.xml
+C:\Users\Alfe2\source\repos\LabShes\LabShes\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Alfe2\source\repos\LabShes\LabShes\bin\Debug\System.Data.SQLite.xml
+C:\Users\Alfe2\source\repos\LabShes\LabShes\obj\Debug\LabShes.csproj.Up2Date
