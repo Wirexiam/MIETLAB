@@ -1,0 +1,10 @@
+C:\Users\Alfe2\source\repos\LabShes\LabShes\bin\Debug\LabShes.exe.config
+C:\Users\Alfe2\source\repos\LabShes\LabShes\bin\Debug\LabShes.exe
+C:\Users\Alfe2\source\repos\LabShes\LabShes\bin\Debug\LabShes.pdb
+C:\Users\Alfe2\source\repos\LabShes\LabShes\obj\Debug\LabShes.csproj.AssemblyReference.cache
+C:\Users\Alfe2\source\repos\LabShes\LabShes\obj\Debug\LabShes.Properties.Resources.resources
+C:\Users\Alfe2\source\repos\LabShes\LabShes\obj\Debug\LabShes.csproj.GenerateResource.cache
+C:\Users\Alfe2\source\repos\LabShes\LabShes\obj\Debug\LabShes.csproj.CoreCompileInputs.cache
+C:\Users\Alfe2\source\repos\LabShes\LabShes\obj\Debug\LabShes.exe
+C:\Users\Alfe2\source\repos\LabShes\LabShes\obj\Debug\LabShes.pdb
+C:\Users\Alfe2\source\repos\LabShes\LabShes\obj\Debug\LabShes.MainForm.resources
