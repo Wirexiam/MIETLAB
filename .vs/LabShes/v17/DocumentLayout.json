@@ -3,32 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\Alfe2\\source\\repos\\LabShes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A5D69128-E2F8-47C1-AFF2-774D588ABE43}|LabShes\\LabShes.csproj|C:\\Users\\Alfe2\\source\\repos\\LabShes\\labshes\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A5D69128-E2F8-47C1-AFF2-774D588ABE43}|LabShes\\LabShes.csproj|solutionrelative:labshes\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A5D69128-E2F8-47C1-AFF2-774D588ABE43}|LabShes\\LabShes.csproj|c:\\users\\alfe2\\source\\repos\\labshes\\labshes\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5D69128-E2F8-47C1-AFF2-774D588ABE43}|LabShes\\LabShes.csproj|solutionrelative:labshes\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A5D69128-E2F8-47C1-AFF2-774D588ABE43}|LabShes\\LabShes.csproj|C:\\Users\\Alfe2\\source\\repos\\LabShes\\labshes\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5D69128-E2F8-47C1-AFF2-774D588ABE43}|LabShes\\LabShes.csproj|solutionrelative:labshes\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5D69128-E2F8-47C1-AFF2-774D588ABE43}|LabShes\\LabShes.csproj|C:\\Users\\Alfe2\\source\\repos\\LabShes\\labshes\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5D69128-E2F8-47C1-AFF2-774D588ABE43}|LabShes\\LabShes.csproj|solutionrelative:labshes\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A5D69128-E2F8-47C1-AFF2-774D588ABE43}|LabShes\\LabShes.csproj|C:\\Users\\Alfe2\\source\\repos\\LabShes\\labshes\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5D69128-E2F8-47C1-AFF2-774D588ABE43}|LabShes\\LabShes.csproj|solutionrelative:labshes\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A5D69128-E2F8-47C1-AFF2-774D588ABE43}|LabShes\\LabShes.csproj|C:\\Users\\Alfe2\\source\\repos\\LabShes\\labshes\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5D69128-E2F8-47C1-AFF2-774D588ABE43}|LabShes\\LabShes.csproj|solutionrelative:labshes\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A5D69128-E2F8-47C1-AFF2-774D588ABE43}|LabShes\\LabShes.csproj|C:\\Users\\Alfe2\\source\\repos\\LabShes\\labshes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A5D69128-E2F8-47C1-AFF2-774D588ABE43}|LabShes\\LabShes.csproj|solutionrelative:labshes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5D69128-E2F8-47C1-AFF2-774D588ABE43}|LabShes\\LabShes.csproj|C:\\Users\\Alfe2\\source\\repos\\LabShes\\labshes\\mainform.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
-      "RelativeMoniker": "D:0:0:{A5D69128-E2F8-47C1-AFF2-774D588ABE43}|LabShes\\LabShes.csproj|solutionrelative:labshes\\mainform.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
+      "AbsoluteMoniker": "D:0:0:{A5D69128-E2F8-47C1-AFF2-774D588ABE43}|LabShes\\LabShes.csproj|c:\\users\\alfe2\\source\\repos\\labshes\\labshes\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A5D69128-E2F8-47C1-AFF2-774D588ABE43}|LabShes\\LabShes.csproj|solutionrelative:labshes\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A5D69128-E2F8-47C1-AFF2-774D588ABE43}|LabShes\\LabShes.csproj|C:\\Users\\Alfe2\\source\\repos\\LabShes\\labshes\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A5D69128-E2F8-47C1-AFF2-774D588ABE43}|LabShes\\LabShes.csproj|solutionrelative:labshes\\exam.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A5D69128-E2F8-47C1-AFF2-774D588ABE43}|LabShes\\LabShes.csproj|C:\\Users\\Alfe2\\source\\repos\\LabShes\\labshes\\mainform.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{A5D69128-E2F8-47C1-AFF2-774D588ABE43}|LabShes\\LabShes.csproj|solutionrelative:labshes\\mainform.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,26 +46,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\Alfe2\\source\\repos\\LabShes\\LabShes\\Student.cs",
               "RelativeDocumentMoniker": "LabShes\\Student.cs",
               "ToolTip": "C:\\Users\\Alfe2\\source\\repos\\LabShes\\LabShes\\Student.cs",
               "RelativeToolTip": "LabShes\\Student.cs",
-              "ViewState": "AQIAABcAAAAAAAAAAAAYwCAAAAAPAAAA",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAwwFIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T14:25:44.75Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "Exam.cs",
               "DocumentMoniker": "C:\\Users\\Alfe2\\source\\repos\\LabShes\\LabShes\\Exam.cs",
               "RelativeDocumentMoniker": "LabShes\\Exam.cs",
               "ToolTip": "C:\\Users\\Alfe2\\source\\repos\\LabShes\\LabShes\\Exam.cs",
               "RelativeToolTip": "LabShes\\Exam.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAABoAAAAFAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAYwBwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T14:25:00.825Z",
               "EditorCaption": ""
@@ -78,7 +78,7 @@
               "RelativeDocumentMoniker": "LabShes\\MainForm.cs",
               "ToolTip": "C:\\Users\\Alfe2\\source\\repos\\LabShes\\LabShes\\MainForm.cs",
               "RelativeToolTip": "LabShes\\MainForm.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAiwAkBAAAQAAAA",
+              "ViewState": "AQIAAPgAAAAAAAAAAAAgwAwBAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T13:34:35.779Z",
               "EditorCaption": ""
@@ -98,20 +98,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "MainForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\Alfe2\\source\\repos\\LabShes\\LabShes\\MainForm.Designer.cs",
               "RelativeDocumentMoniker": "LabShes\\MainForm.Designer.cs",
               "ToolTip": "C:\\Users\\Alfe2\\source\\repos\\LabShes\\LabShes\\MainForm.Designer.cs",
               "RelativeToolTip": "LabShes\\MainForm.Designer.cs",
-              "ViewState": "AQIAAK4AAAAAAAAAAAAYwMcAAAAAAAAA",
+              "ViewState": "AQIAAFwAAAAAAAAAAAAYwG4AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-08T13:23:58.095Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "MainForm.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "C:\\Users\\Alfe2\\source\\repos\\LabShes\\LabShes\\MainForm.cs",
               "RelativeDocumentMoniker": "LabShes\\MainForm.cs",
@@ -123,15 +123,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "MainForm.resx",
               "DocumentMoniker": "C:\\Users\\Alfe2\\source\\repos\\LabShes\\LabShes\\MainForm.resx",
               "RelativeDocumentMoniker": "LabShes\\MainForm.resx",
               "ToolTip": "C:\\Users\\Alfe2\\source\\repos\\LabShes\\LabShes\\MainForm.resx",
               "RelativeToolTip": "LabShes\\MainForm.resx",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001005|",
-              "WhenOpened": "2024-09-08T14:42:49.236Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-08T14:42:49.236Z"
             }
           ]
         }

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -7,10 +8,32 @@ using System.Threading.Tasks;
 namespace LabShes
 {
     [Serializable]
-    public class Student
+    public class Student : INotifyPropertyChanged
     {
-        public string Name { get; set; }
-        public string Surname { get; set; }
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        private string name;
+        public string Name
+        {
+            get => name;
+            set
+            {
+                name = value;
+                OnPropertyChanged("Name");
+            }
+        }
+
+        private string surname;
+        public string Surname
+        {
+            get => surname;
+            set
+            {
+                surname = value;
+                OnPropertyChanged("Surname");
+            }
+        }
+
         public DateTime DateOfBirth { get; set; }
         public List<Exam> Exams { get; set; } = new List<Exam>();
 
@@ -21,13 +44,12 @@ namespace LabShes
             DateOfBirth = dob;
         }
 
-        // Добавление экзамена
         public void AddExam(Exam exam)
         {
             Exams.Add(exam);
+            OnPropertyChanged(nameof(Exams));
         }
 
-        // Свойство для отображения информации в списке
         public string DisplayInfo
         {
             get
@@ -37,10 +59,44 @@ namespace LabShes
             }
         }
 
-        // Переопределение метода ToString для правильного отображения в ListBox
+        protected void OnPropertyChanged(string propertyName)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+
         public override string ToString()
         {
             return DisplayInfo;
+        }
+
+        public override bool Equals(object obj)
+        {
+            if (obj is Student other)
+                return Name == other.Name && Surname == other.Surname;
+            return false;
+        }
+
+        public override int GetHashCode()
+        {
+            return (Name?.GetHashCode() ?? 0) ^ (Surname?.GetHashCode() ?? 0);
+        }
+
+
+        public IEnumerable<Exam> GetExamsAboveGrade(int grade)
+        {
+            foreach (var exam in Exams)
+            {
+                if (exam.Grade > grade)
+                    yield return exam;
+            }
+        }
+
+        public object DeepCopy()
+        {
+            return new Student(Name, Surname, DateOfBirth)
+            {
+                Exams = new List<Exam>(this.Exams)
+            };
         }
     }
 }

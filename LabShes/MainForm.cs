@@ -21,7 +21,7 @@ namespace LabShes
             // Настройка MaterialSkin
             skinManager = MaterialSkinManager.Instance;
             skinManager.AddFormToManage(this);
-            skinManager.Theme = MaterialSkinManager.Themes.DARK; // Или MaterialSkinManager.Themes.DARK
+            skinManager.Theme = MaterialSkinManager.Themes.DARK;
             skinManager.ColorScheme = new ColorScheme(
                 Primary.Blue600, Primary.Blue700, Primary.Blue200,
                 Accent.LightBlue200, TextShade.WHITE);
@@ -34,7 +34,6 @@ namespace LabShes
         {
             lstStudents.DisplayMember = null; // ListBox будет отображать свойство DisplayInfo
         }
-
 
         // Обработчик события добавления студента
         private void MainForm_StudentAddedEvent(object sender, StudentEventArgs e)
@@ -80,15 +79,12 @@ namespace LabShes
             }
         }
 
-
         private void ClearStudentInputFields()
         {
             txtName.Text = string.Empty;
             txtSurname.Text = string.Empty;
             txtDateOfBirth.Text = string.Empty;
         }
-
-
 
         // Добавление экзамена
         private void btnAddExam_Click(object sender, EventArgs e)
@@ -139,15 +135,12 @@ namespace LabShes
             }
         }
 
-
-
         private void ClearExamInputFields()
         {
             txtSubject.Text = string.Empty;
             txtGrade.Text = string.Empty;
             txtExamDate.Text = string.Empty;
         }
-
 
         // Сохранение данных в файл
         private void btnSaveToFile_Click(object sender, EventArgs e)
@@ -174,8 +167,6 @@ namespace LabShes
                 }
             }
         }
-
-
 
         // Загрузка данных из файла
         private void btnLoadFromFile_Click(object sender, EventArgs e)
@@ -204,8 +195,8 @@ namespace LabShes
                         // Если есть студенты, выбираем первого и отображаем его экзамены
                         if (students.Count > 0)
                         {
-                            lstStudents.SelectedIndex = 0; // Выбираем первого студента
-                            DisplaySelectedStudentExams(students[0]); // Отображаем его экзамены
+                            lstStudents.SelectedIndex = 0;
+                            DisplaySelectedStudentExams(students[0]);
                         }
 
                         MessageBox.Show("Данные загружены из файла.");
@@ -218,19 +209,15 @@ namespace LabShes
             }
         }
 
-
-
-
         // Отображение списка студентов
         private void DisplayStudents()
         {
             lstStudents.Items.Clear();
             foreach (var student in students)
             {
-                lstStudents.Items.Add(student); // Добавляем объект Student, а не строку DisplayInfo
+                lstStudents.Items.Add(student);
             }
         }
-
 
         // Обработчик выбора студента в списке
         private void lstStudents_SelectedIndexChanged(object sender, EventArgs e)
@@ -241,11 +228,10 @@ namespace LabShes
             }
         }
 
-
         // Отображение экзаменов выбранного студента
         private void DisplaySelectedStudentExams(Student student)
         {
-            lblExams.Text = ""; // Очищаем текст перед обновлением
+            lblExams.Text = "";
 
             if (student.Exams.Count == 0)
             {
@@ -258,6 +244,7 @@ namespace LabShes
                 lblExams.Text += $"{exam.Subject}: Оценка {exam.Grade}, Дата: {exam.ExamDate.ToShortDateString()}\n";
             }
         }
+
         private void chkToggleTheme_CheckedChanged(object sender, EventArgs e)
         {
             if (chkToggleTheme.Checked)
@@ -271,7 +258,6 @@ namespace LabShes
                 chkToggleTheme.Text = "Светлая тема";
             }
         }
-
     }
 
     // Класс события для студента

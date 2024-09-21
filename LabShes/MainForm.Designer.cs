@@ -38,112 +38,112 @@
             this.lblEventLog = new MaterialSkin.Controls.MaterialLabel();
             this.chkToggleTheme = new MaterialSkin.Controls.MaterialCheckBox();
 
-            // Form settings
+            // Настройка
             this.ClientSize = new System.Drawing.Size(800, 600);
             this.Text = "Управление студентами и экзаменами";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 
-            // Label for Name
+            // Имя
             this.lblName.Text = "Имя:";
             this.lblName.Location = new System.Drawing.Point(30, 80);
             this.lblName.AutoSize = true;
 
-            // Text field for Name
+            // Ввод имени
             this.txtName.Hint = "Введите имя";
             this.txtName.Location = new System.Drawing.Point(150, 80);
             this.txtName.Width = 200;
 
-            // Label for Surname
+            // Фамилия
             this.lblSurname.Text = "Фамилия:";
             this.lblSurname.Location = new System.Drawing.Point(30, 120);
             this.lblSurname.AutoSize = true;
 
-            // Text field for Surname
+            // Ввод фамилии
             this.txtSurname.Hint = "Введите фамилию";
             this.txtSurname.Location = new System.Drawing.Point(150, 120);
             this.txtSurname.Width = 200;
 
-            // Label for Date of Birth
+            // ДР
             this.lblDateOfBirth.Text = "Дата рождения:";
             this.lblDateOfBirth.Location = new System.Drawing.Point(30, 160);
             this.lblDateOfBirth.AutoSize = true;
 
-            // Text field for Date of Birth
+            // Ввод ДР
             this.txtDateOfBirth.Hint = "Введите дату рождения";
             this.txtDateOfBirth.Location = new System.Drawing.Point(150, 160);
             this.txtDateOfBirth.Width = 200;
 
-            // Button to Add Student
+            // Кнопка добавления
             this.btnAddStudent.Text = "Добавить студента";
             this.btnAddStudent.Location = new System.Drawing.Point(30, 200);
             this.btnAddStudent.Width = 320;
 
-            // Label for Subject
+            // Предмет
             this.lblSubject.Text = "Предмет:";
             this.lblSubject.Location = new System.Drawing.Point(30, 250);
             this.lblSubject.AutoSize = true;
 
-            // Text field for Subject
+            // Ввод предмета
             this.txtSubject.Hint = "Введите предмет";
             this.txtSubject.Location = new System.Drawing.Point(150, 250);
             this.txtSubject.Width = 200;
 
-            // Label for Grade
+            // Оценка
             this.lblGrade.Text = "Оценка:";
             this.lblGrade.Location = new System.Drawing.Point(30, 290);
             this.lblGrade.AutoSize = true;
 
-            // Text field for Grade
+            // Ввод оценки
             this.txtGrade.Hint = "Введите оценку";
             this.txtGrade.Location = new System.Drawing.Point(150, 290);
             this.txtGrade.Width = 200;
 
-            // Label for Exam Date
+            // Дата экзамена
             this.lblExamDate.Text = "Дата экзамена:";
             this.lblExamDate.Location = new System.Drawing.Point(30, 330);
             this.lblExamDate.AutoSize = true;
 
-            // Text field for Exam Date
+            // Ввод даты экзамена
             this.txtExamDate.Hint = "Введите дату экзамена";
             this.txtExamDate.Location = new System.Drawing.Point(150, 330);
             this.txtExamDate.Width = 200;
 
-            // Button to Add Exam
+            // Добавляем экзамен
             this.btnAddExam.Text = "Добавить экзамен";
             this.btnAddExam.Location = new System.Drawing.Point(30, 370);
             this.btnAddExam.Width = 320;
 
-            // ListBox for displaying students
+            // Отображение студентов
             this.lstStudents.Location = new System.Drawing.Point(400, 80);
             this.lstStudents.Size = new System.Drawing.Size(350, 150);
 
-            // Label for displaying exams
+            // название экзов
             this.lblExams.Text = "Экзамены:";
             this.lblExams.Location = new System.Drawing.Point(400, 250);
             this.lblExams.AutoSize = true;
 
-            // Button to save to file
+            // Кнопка загрузеи
             this.btnSaveToFile.Text = "Сохранить в файл";
             this.btnSaveToFile.Location = new System.Drawing.Point(30, 450);
             this.btnSaveToFile.Width = 320;
 
-            // Button to load from file
+            // Кнопка выгрузки
             this.btnLoadFromFile.Text = "Загрузить из файла";
             this.btnLoadFromFile.Location = new System.Drawing.Point(400, 450);
             this.btnLoadFromFile.Width = 320;
 
-            // Label for Event Log
+            // Лог
             this.lblEventLog.Text = "Лог событий";
             this.lblEventLog.Location = new System.Drawing.Point(30, 500);
             this.lblEventLog.AutoSize = true;
 
-            // CheckBox for toggling theme
+            // Чекбокс для темной темы
             this.chkToggleTheme.Text = "Тёмная тема";
             this.chkToggleTheme.Location = new System.Drawing.Point(30, 550);
             this.chkToggleTheme.AutoSize = true;
             this.chkToggleTheme.CheckedChanged += new System.EventHandler(this.chkToggleTheme_CheckedChanged);
 
-            // Adding controls to the form
+            // Привязка контролов
             this.Controls.Add(this.lblName);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.lblSurname);
